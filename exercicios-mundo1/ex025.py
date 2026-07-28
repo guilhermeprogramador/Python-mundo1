@@ -1,5 +1,4 @@
 #resolução exercicio 025 - Curso em video 
-nome = input('digite seu nome: ') 
-silva = nome.upper()
+nome = input('digite seu nome: ').upper()
 
-print('SILVA' in silva)
+print('SILVA' in nome)
