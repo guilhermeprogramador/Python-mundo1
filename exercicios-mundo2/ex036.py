@@ -1,8 +1,8 @@
 #Resolução do ex036 - Curso em Video 
 
-casa = int(input('Qual o valor da casa? '))
+casa = float(input('Qual o valor da casa? '))
 anos = int(input('Em quantos anos você vai pagar a casa? '))
-salario = int(input('Qual o seu salario? '))
+salario = float(input('Qual o seu salario? '))
 
 prestacao = (casa / (anos * 12))
 
