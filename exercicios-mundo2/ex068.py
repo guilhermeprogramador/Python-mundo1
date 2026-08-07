@@ -1,8 +1,7 @@
 #Resolução exercicio 068 - Curso em Video
 import random 
 
-i = j = 0
-par_impar = ''
+i = 0
 
 while True: 
     jogador = int(input('Digite um valor: ')) 
@@ -22,8 +21,8 @@ while True:
         elif par_impar == 'P':
             print(f'Você perdeu, você jogou {jogador} e o computador {maquina}. O total deu {soma}, que é Impar')
             break
-    j += 1
+    i += 1
 
-print(f'Game Over, você venceu {j} vezes')
+print(f'Game Over, você venceu {i} vezes')
 
 
