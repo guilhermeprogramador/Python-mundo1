@@ -5,7 +5,6 @@ cont = num = maior = menor = media = 0
 
 while i != 'N':
     num = int(input('Digite um numero: '))
-    x = num
 
     if num > maior:
         maior = num
